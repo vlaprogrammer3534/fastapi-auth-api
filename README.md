@@ -98,6 +98,19 @@ You can import this file into Postman to test:
 
 ---
 
+## ▶️ How to Run the Project
+
+Make sure you have Python 3.11+ and all dependencies installed (from `requirements.txt`):
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Open in browser: http://127.0.0.1:8000
+Swagger Docs: http://127.0.0.1:8000/docs
+ReDoc: http://127.0.0.1:8000/redoc
+
+```
 ## 👨‍💻 Developed By
 
 > **Mudassir Ijaz**  
