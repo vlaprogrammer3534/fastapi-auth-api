@@ -17,17 +17,28 @@ This is a secure authentication system built using **FastAPI**. It uses **JWT (J
 
 ## 📦 Tech Stack
 
-- **Python 3.11+**
-- **FastAPI**
-- **Uvicorn**
-- **JWT (PyJWT)**
-- **Pydantic**
+- **Python 3.11+**           ➤ Latest Python version for backend development.
+- **FastAPI**                ➤ Lightweight, high-performance web framework for APIs.
+- **Uvicorn**                ➤ ASGI server to run FastAPI apps.
+- **JWT (python-jose)**      ➤ For generating and verifying access & refresh tokens.
+- **Passlib (bcrypt)**       ➤ For secure password hashing (if added later).
+- **SQLAlchemy**             ➤ ORM for database interactions.
+- **SQLite**                 ➤ Lightweight relational DB for local development.
+- **Pydantic**               ➤ Data validation & serialization.
+- **python-multipart**       ➤ Required to handle form-data in FastAPI.
 
 ---
 
 ## 📁 Folder Structure
-project/ │ ├── main.py # Main FastAPI app ├── models.py # Pydantic models ├── auth.py # JWT utility functions ├── requirements.txt # Dependencies ├── README.md # You're reading it 😉 └── docs/ └── postman_collection.json
-
+secure_api_project/
+│
+├── main.py               # Entry point for the FastAPI application
+├── models.py             # SQLAlchemy models & DB setup
+├── auth.py               # Authentication & token logic
+├── routes/               # All API routes like login, register, refresh-token etc.
+├── utils.py              # Utility functions (optional)
+├── requirements.txt      # All dependencies listed
+└── README.md             # Project documentation (to be written)
 
 ---
 
