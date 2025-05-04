@@ -117,9 +117,3 @@ ReDoc: http://127.0.0.1:8000/redoc
 > For: Client (Germany-based IT Office)  
 > Stack: FastAPI + JWT + Postman  
 > 📅 April 2025
-
----
-
-## 📄 License
-
-This project is private and built specifically for the client. Do not reuse without permission.
